@@ -1,0 +1,159 @@
+/* styles/styles.css */
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1c1c1c, #2e2e2e);
+    color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Input fields */
+input[type="text"], input[type="number"] {
+    width: calc(100% - 2rem);
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #4a5568;
+    border-radius: 5px;
+    background-color: #2d3748;
+    color: #f5f5f5;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+    color: #a0aec0;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    background-color: #1a202c;
+    border-color: #63b3ed;
+}
+
+/* Buttons */
+button {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3182ce;
+}
+
+/* Table styling */
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #4a5568;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+thead {
+    background: #2b2d2f;
+}
+
+tbody tr:nth-child(even) {
+    background: #1a202c;
+}
+
+tbody tr:nth-child(odd) {
+    background: #2d3748;
+}
+
+tbody tr:hover {
+    background: #4a5568;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    background: #000; /* or any space-themed background */
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+}
+
+button {
+    background: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background: #333;
+}
+
+tbody tr:nth-child(even) {
+    background: #222;
+}
+
+tbody tr:nth-child(odd) {
+    background: #111;
+}
