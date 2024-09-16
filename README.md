@@ -25,7 +25,7 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository** to your local machine:
 
     ```bash
-    git clone https://github.com/your-repo/truth-table-generator.git
+    git clone https://github.com/randomSmarts/Truth-Table-Generator.git
     ```
 
 2. **Open the project** in your preferred code editor. You can use **Visual Studio Code** or **IntelliJ IDEA**:
