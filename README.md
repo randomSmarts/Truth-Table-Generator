@@ -20,12 +20,30 @@ Ensure you have the following installed on your machine:
 - **Node.js** (version 14 or later)
 - **npm** (Node Package Manager)
 
+### How to Install Node.js and npm
+
+1. **Install Node.js**:
+
+    - Visit the [official Node.js website](https://nodejs.org/) and download the latest **LTS** version for your operating system.
+    - Follow the installation instructions specific to your OS.
+
+2. **Verify the installation**:
+
+    - Once Node.js is installed, verify that both **Node.js** and **npm** are installed correctly by running the following commands in your terminal/command prompt:
+
+    ```bash
+    node -v
+    npm -v
+    ```
+
+    These commands should return the versions of Node.js and npm.
+
 ### Steps to Run
 
 1. **Clone the repository** to your local machine:
 
     ```bash
-    git clone https://github.com/randomSmarts/Truth-Table-Generator.git
+    git clone https://github.com/your-repo/truth-table-generator.git
     ```
 
 2. **Open the project** in your preferred code editor. You can use **Visual Studio Code** or **IntelliJ IDEA**:
